@@ -5,17 +5,18 @@
 
 <?php 
 # file name : main.php
-use Khayrulhasan\Table\View;
-use Khayrulhasan\Table\ViewList;
+use Khayrulhasan\Table\Data;
+use Khayrulhasan\Table\DataList;
 
 require_once "vendor/autoload.php";
 
 /*
  *  data(s)
  */
-$user1 = new View(1, 'Selim Reza', 'me@selimreza.com');
-$user2 = new View(2, 'Half Way', 'selimppc@gmail.com');
-$data = new ViewList([$user1, $user2]);
+
+$user1 = new Data(1, 'Selim Reza', 'me@selimreza.com');
+$user2 = new Data(2, 'Half Way', 'selimppc@gmail.com');
+$data = new DataList([$user1, $user2]);
 
 
 /*
