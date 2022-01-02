@@ -13,11 +13,13 @@ require_once "vendor/autoload.php";
 /*
  *  data(s)
  */
-$data = new ViewList();
-$data[] = new View(1, 'Selim Reza', 'me@selimreza.com');
-$data[] = new View(2, 'Half Way', 'selimppc@gmail.com');
+$user1 = new View(1, 'Selim Reza', 'me@selimreza.com');
+$user2 = new View(2, 'Half Way', 'selimppc@gmail.com');
+$data = new ViewList([$user1, $user2]);
+
 
 /*
  * final output
  */
-print $data;
+$data->displayAsTable();
+
