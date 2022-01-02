@@ -1,5 +1,6 @@
-# Go to your directory and create a file as main.php
-### Run on your terminal ## composer require khayrulhasan/table
+## Ans One
+# Create a file named “ main.php" in your directory.
+### Run this command in your root directory terminal CMD: composer require khayrulhasan/table
 ``` php
 
 <?php 
