@@ -1,9 +1,9 @@
 # Go to your directory and create a file as main.php
 ### Run on your terminal ## composer require khayrulhasan/table
 ``` php
-# file name : main.php
-<?php 
 
+<?php 
+# file name : main.php
 use Khayrulhasan\Table\View;
 use Khayrulhasan\Table\ViewList;
 
