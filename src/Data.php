@@ -2,7 +2,7 @@
 
 namespace Khayrulhasan\Table;
 
-class View
+class Data
 {
     //definition
     private $id;
