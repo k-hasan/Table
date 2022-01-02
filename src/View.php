@@ -43,8 +43,6 @@ class View
         return $this->email;
     }
 
-    public function test()
-    {
-        return "hello";
-    }
+    
+    
 }
