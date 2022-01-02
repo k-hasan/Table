@@ -1,6 +1,6 @@
 <?php
 
-namespace KhayrulHasan\Table;
+namespace Khayrulhasan\Table;
 
 class View
 {
