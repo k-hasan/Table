@@ -5,8 +5,8 @@
 
 <?php 
 # file name : main.php
-use Khayrulhasan\Table\Data;
-use Khayrulhasan\Table\DataList;
+use Khayrulhasan\Table\User;
+use Khayrulhasan\Table\UserCollection;
 
 require_once "vendor/autoload.php";
 
