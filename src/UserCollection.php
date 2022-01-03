@@ -2,7 +2,7 @@
 
 namespace Khayrulhasan\Table;
 
-class DataList extends \ArrayObject
+class UserCollection extends \ArrayObject
 {
 
     private $userList = [];
