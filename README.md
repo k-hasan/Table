@@ -14,9 +14,9 @@ require_once "vendor/autoload.php";
  *  data(s)
  */
 
-$user1 = new Data(1, 'Selim Reza', 'me@selimreza.com');
-$user2 = new Data(2, 'Half Way', 'selimppc@gmail.com');
-$data = new DataList([$user1, $user2]);
+$user1 = new User(1, 'Selim Reza', 'me@selimreza.com');
+$user2 = new User(2, 'Half Way', 'selimppc@gmail.com');
+$data = new UserCollection([$user1, $user2]);
 
 
 /*
